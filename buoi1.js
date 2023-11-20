@@ -65,3 +65,28 @@
 // }
 
 
+
+// function kt1(n) {
+//     if (n === 0) console.log("Day la so 0");
+//     if (n > 0) console.log(`${n} la so duong`);
+//     if (n < 0) console.log(`${n} la so am`);
+// }
+
+// let max1 = -Infinity;
+
+
+// const sotiengui = 5000000000
+// const laisuat = 5.3
+// const songaygui = 365 
+// console.log(sotiengui * (5.3/100) * (365/30))
+
+// const sotien=1000000;
+// const laisuatduoi12thang=0.05;
+// const laisuattren12thang=0.07;
+// const time=13;
+// if(time>12){
+//     console.log("Số tiền lãi",sotien*laisuattren12thang)
+// }
+// else{
+//     console.log("số tiền lãi",sotien*laisuatduoi12thang)
+// }

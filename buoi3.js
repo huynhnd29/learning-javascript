@@ -3,7 +3,7 @@ function squareNomal(number) {
 }
 
 const squareExpression = function (number) {
-    number * number
+    return number * number
 }
 
 function squareVoid() {
@@ -52,6 +52,11 @@ console.log(petOfHuynh.getSex());
 console.log(petOfHuynh.getDescription());
 
 const squareArrowFunction = (number) => number * number
+
 const square2 = (number) => {
+    return number * number
+}
+
+function square3(number) {
     return number * number
 }

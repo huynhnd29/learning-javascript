@@ -27,28 +27,28 @@
 // [13, 2, 3, 6, 8, 9, 1, 14, 17]
 //  0, 1, 2, 3, 4, 5, 6,  7,  8
 // arr[0]
-// function isPrime(number) {
-//     if (number === 1) {
-//         return false
-//     }
-//     if (number === 2 || number === 5 || number === 3 || number === 7) {
-//         return true
-//     }
-//     if (number % 2 !== 0 && number % 3 !== 0 && number % 5 !== 0 && number % 7 !== 0) {
-//         return true
-//     }
-//     return false
-// }
+function isPrime(number) {
+    if (number === 1) {
+        return false
+    }
+    if (number === 2 || number === 5 || number === 3 || number === 7) {
+        return true
+    }
+    if (number % 2 !== 0 && number % 3 !== 0 && number % 5 !== 0 && number % 7 !== 0) {
+        return true
+    }
+    return false
+}
 
-// function findPrime(arr) {
-//     let newArr = [];
-//     for (let i = 0; i < arr.length; i++) {
-//         if (isPrime(arr[i])) { // i=0 => arr[i] = 2
-//             newArr.push(arr[i])
-//         }
-//     }
-//     return newArr
-// }
+function findPrime(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (isPrime(arr[i])) { // i=0 => arr[i] = 2
+            newArr.push(arr[i])
+        }
+    }
+    return newArr
+}
 
 console.log(findPrime([2, 3, 6, 8, 9, 13, 1, 14, 17]))
 

@@ -198,7 +198,7 @@ let carName2 = ""
 
 let carOver = ""
 while (carName2 === "") {
-    let ca123 = ""
+    let carName2InWhite = ""
     let carName1InWhite = ""
     let max = -Infinity
     let max2 = -Infinity
@@ -216,7 +216,7 @@ while (carName2 === "") {
         if (max2 < car.objectCar[i].price && car.objectCar[i].price <= tienThua) {
             max2 = car.objectCar[i].price
             carName2 = car.objectCar[i].color
-            ca123 =  car.objectCar[i].color
+            carName2InWhite =  car.objectCar[i].color
         }
     }
     if (ca123 === "") {

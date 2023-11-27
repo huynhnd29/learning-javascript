@@ -193,9 +193,7 @@ const car = {
 // Dũng có 6100$ giúp dũng mua 2 chiêc xe
 
 let carName1 = ""
-
 let carName2 = ""
-
 let carOver = ""
 while (carName2 === "") {
     let carName2InWhite = ""

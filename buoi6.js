@@ -11,7 +11,7 @@ const classArr = [{
 },
 {
     name: "Tuấn Anh",
-    address: "Bắc Từ Liêm và Nam từ Liêm"
+    address: "Bắc Từ Liêm và Nam từ Liêm mootj hai ba"
 },
 {
     name: "Đạt",
